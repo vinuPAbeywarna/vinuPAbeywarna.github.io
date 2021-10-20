@@ -12,9 +12,7 @@
           v-for="(item, i) in items"
           :key="i"
           :to="item.to"
-          router
-          exact
-        >
+          router exact>
           <v-list-item-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
